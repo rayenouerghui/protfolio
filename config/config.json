@@ -1,0 +1,60 @@
+{
+  "site": {
+    "title": "Mohamed Rayen Ouerghui",
+    "base_url": "/",
+    "favicon": "/images/favicon.png",
+    "logo": "/images/my-photo.png",
+    "logo_white": "/images/my-photo.png",
+    "logo_width": "52",
+    "logo_height": "52",
+    "logo_text": ""
+  },
+  "settings": {
+    "theme_switcher": true,
+    "default_theme": "system",
+    "pagination": 6,
+    "InnerPaginationOptions": {
+      "enableTop": false,
+      "enableBottom": true
+    },
+    "summary_length": 200,
+    "blog_folder": "posts"
+  },
+  "params": {
+    "tag_manager_id": "",
+    "footer_content": "Mohamed Rayen Ouerghui — DevOps Engineer",
+    "copyright": "© Mohamed Rayen Ouerghui"
+  },
+  "metadata": {
+    "meta_author": "Mohamed Rayen Ouerghui",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Mohamed Rayen Ouerghui — DevOps Engineer Portfolio"
+  },
+  "widgets": {
+    "about": {
+      "enable": true,
+      "content": "DevOps Engineer focused on CI/CD, automation, and scalable cloud infrastructure."
+    },
+    "featured_posts": {
+      "enable": false,
+      "title": "Blog Categories",
+      "showPost": 3
+    },
+    "categories": {
+      "enable": false,
+      "title": "Blog Categories"
+    },
+    "newsletter": {
+      "enable": false,
+      "title": "Newsletter",
+      "content": "Join thousands of Tiny Salt subscribers and get our best recipes delivered each week!",
+      "privacy_policy_page": "#",
+      "malichipm_url": ""
+    }
+  },
+  "disqus": {
+    "enable": false,
+    "shortname": "themefisher-template",
+    "settings": {}
+  }
+}

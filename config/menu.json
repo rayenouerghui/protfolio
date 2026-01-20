@@ -1,0 +1,46 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Projects",
+      "url": "/#projects"
+    },
+    {
+      "name": "Experience",
+      "url": "/#experience"
+    },
+    {
+      "name": "Certifications",
+      "url": "/#certifications"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Projects",
+      "url": "/#projects"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+  ]
+}
