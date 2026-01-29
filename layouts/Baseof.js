@@ -2,6 +2,7 @@ import config from "@config/config.json";
 import { plainify } from "@lib/utils/textConverter";
 import Footer from "@partials/Footer";
 import Header from "@partials/Header";
+import ScrollToTop from "@layouts/components/ScrollToTop";
 import Head from "next/head";
 import { useRouter } from "next/router";
 
@@ -88,11 +89,19 @@ const Base = ({
           content={`${base_url}${image ? image : meta_image}`}
         />
         <meta name="twitter:card" content="summary_large_image" />
+        
+        {/* DevIcons CDN for language logos */}
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+        />
       </Head>
       <Header />
       {/* main site */}
       <main>{children}</main>
       <Footer />
+      <ScrollToTop />
     </>
   );
 };

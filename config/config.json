@@ -1,13 +1,13 @@
 {
   "site": {
-    "title": "Mohamed Rayen Ouerghui",
+    "title": "Portfolio",
     "base_url": "/",
     "favicon": "/images/favicon.png",
-    "logo": "/images/my-photo.png",
-    "logo_white": "/images/my-photo.png",
+    "logo": "",
+    "logo_white": "",
     "logo_width": "52",
     "logo_height": "52",
-    "logo_text": ""
+    "logo_text": "Mohamed Rayen Ouerghui"
   },
   "settings": {
     "theme_switcher": true,
@@ -22,13 +22,13 @@
   },
   "params": {
     "tag_manager_id": "",
-    "footer_content": "Mohamed Rayen Ouerghui — DevOps Engineer",
-    "copyright": "© Mohamed Rayen Ouerghui"
+    "footer_content": "DevOps Engineer Portfolio",
+    "copyright": "© 2026 Portfolio"
   },
   "metadata": {
-    "meta_author": "Mohamed Rayen Ouerghui",
+    "meta_author": "Portfolio",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Mohamed Rayen Ouerghui — DevOps Engineer Portfolio"
+    "meta_description": "DevOps Engineer Portfolio"
   },
   "widgets": {
     "about": {

@@ -1,6 +1,20 @@
 // section style
 .section {
-  @apply py-16;
+  @apply py-20;
+}
+
+// Enhanced section spacing
+.section-padding {
+  @apply py-24 lg:py-32;
+}
+
+// Professional section titles
+.section-title {
+  @apply text-3xl md:text-4xl font-bold text-center mb-16 relative;
+  
+  &::after {
+    @apply content-[''] absolute bottom-[-8px] left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-primary to-blue-500;
+  }
 }
 
 // container
@@ -281,11 +295,11 @@ footer .socials {
 
 /* Gradient backgrounds */
 .gradient-bg {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
 }
 
 .gradient-bg-alt {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%);
 }
 
 /* Enhanced shadows */
@@ -300,10 +314,10 @@ footer .socials {
 /* Pulse animation for attention */
 @keyframes pulse-glow {
   0%, 100% {
-    box-shadow: 0 0 0 0 rgba(102, 126, 234, 0.7);
+    box-shadow: 0 0 0 0 rgba(30, 64, 175, 0.7);
   }
   50% {
-    box-shadow: 0 0 0 10px rgba(102, 126, 234, 0);
+    box-shadow: 0 0 0 10px rgba(30, 64, 175, 0);
   }
 }
 

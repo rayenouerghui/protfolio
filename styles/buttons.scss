@@ -1,31 +1,45 @@
 .btn {
-  @apply font-secondary inline-block border px-5 py-2.5 font-bold transition;
+  @apply font-secondary inline-block border px-5 py-2.5 font-bold transition-all duration-300;
+}
+
+.btn-lg {
+  @apply px-8 py-4 text-lg;
 }
 
 .btn-primary {
-  @apply bg-primary text-white rounded-[50px] px-8 py-2.5  relative border-0 overflow-hidden h-12;
+  @apply bg-primary text-white rounded-xl px-8 py-3 relative border-0 overflow-hidden font-semibold shadow-lg hover:shadow-xl;
 
   &::before {
-    @apply content-[''] absolute  h-full right-0  bg-black/5 w-0 top-0 transition-all duration-500 rounded-[50px] ease-[cubic-bezier(.42,0,.58,1)];
+    @apply content-[''] absolute h-full right-0 bg-white/10 w-0 top-0 transition-all duration-500 rounded-xl;
   }
 
   &:hover {
-     &::before {
+    @apply transform -translate-y-0.5 shadow-2xl;
+    &::before {
       @apply w-full right-auto left-0;
     }
+  }
+
+  &:active {
+    @apply transform translate-y-0;
   }
 }
 
 .btn-outline-primary {
-  @apply border-primary bg-transparent hover:bg-primary hover:text-white  rounded-[50px] text-primary font-bold relative transition-all ease-[cubic-bezier(.42,0,.58,1)] duration-75 overflow-hidden h-12;
+  @apply border-2 border-primary bg-transparent hover:bg-primary hover:text-white rounded-xl text-primary font-semibold relative transition-all duration-300 overflow-hidden shadow-md hover:shadow-lg;
 
   &::before {
-    @apply content-[''] absolute  h-full right-0  bg-black/5 w-0 top-0 transition-all duration-500 rounded-[50px];
+    @apply content-[''] absolute h-full right-0 bg-primary w-0 top-0 transition-all duration-500 rounded-xl z-[-1];
   }
 
   &:hover {
-     &::before {
+    @apply transform -translate-y-0.5;
+    &::before {
       @apply w-full right-auto left-0;
     }
+  }
+
+  &:active {
+    @apply transform translate-y-0;
   }
 }

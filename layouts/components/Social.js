@@ -147,12 +147,9 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="linkedin"
-            href={`${linkedin}/#!`}
+            href={linkedin}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoLinkedin />
           </a>
@@ -162,12 +159,9 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="github"
-            href={`${github}/#!`}
+            href={github}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer"
           >
             <IoLogoGithub />
           </a>

@@ -15,14 +15,6 @@
     {
       "name": "Certifications",
       "url": "/#certifications"
-    },
-    {
-      "name": "About",
-      "url": "/about"
-    },
-    {
-      "name": "Contact",
-      "url": "/contact"
     }
   ],
   "footer": [
@@ -35,12 +27,12 @@
       "url": "/#projects"
     },
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Experience",
+      "url": "/#experience"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "Certifications",
+      "url": "/#certifications"
     }
   ]
 }
